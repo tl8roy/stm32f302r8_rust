@@ -1,0 +1,11 @@
+[package]
+name = "stm_test"
+version = "0.1.0"
+authors = ["tlostroh"]
+edition = "2018"
+
+[dependencies]
+panic-halt  = "0.2"
+stm32f3xx-hal = {version = "0.1",features = ["stm32f302"]}
+cortex-m-rt = "0.6"
+cortex-m = "*"
